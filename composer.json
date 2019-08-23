@@ -1,0 +1,21 @@
+{
+    "name": "dillingham/js-trans",
+    "description": "js translations functionality",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Brian Dillingham",
+            "email": "bdillingham88@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8.3",
+        "orchestra/testbench": "^3.8"
+    },
+    "autoload": {
+        "files": [
+            "src/Helpers.php"
+        ]
+    }
+}
