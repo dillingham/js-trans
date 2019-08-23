@@ -2,6 +2,7 @@
     "name": "dillingham/js-trans",
     "description": "js translations functionality",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Brian Dillingham",
