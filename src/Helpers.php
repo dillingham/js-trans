@@ -14,7 +14,11 @@ if (!function_exists('js_trans')) {
                 window.translations = $json
 
                 window.__ = function(term) {
-                    return window.translations[term];
+                    if (window.translations.hasOwnProperty(term)) {
+                        return window.translations[term];
+                    }
+
+                    return term;
                 }
             </script>
         ";
